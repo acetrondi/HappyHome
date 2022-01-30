@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&display=swap");
+
+.main {
+  /* font-family: 'Jost', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.animation-box {
+  min-height: 100vh;
+  background-color: #1d2a45;
+  color: #f7d919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

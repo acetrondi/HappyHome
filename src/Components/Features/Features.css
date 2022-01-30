@@ -1,0 +1,39 @@
+.home_features {
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.home_features-item {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.home_features-item h2 {
+  font-weight: 300;
+  font-size: 20px;
+}
+.home_features-item p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.home_features-item i {
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+.color-blue {
+  color: #079ed6;
+}
+.color-paste {
+  color: #32dac3;
+}
+
+/* ---------------------------- SHORT MEDIA QUERY --------------------------- */
+@media (max-width: 668px) {
+  .home_features {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 2rem;
+  }
+}

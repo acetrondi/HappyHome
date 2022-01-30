@@ -1,0 +1,23 @@
+.service_title {
+  border: 1px solid #07a5e2;
+  display: inline-block;
+  margin: 30px auto;
+
+  font-weight: 200;
+  padding: 7px 10px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+.service_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #07a5e2;
+}
+.service_title_big {
+  font-size: 32px;
+  font-weight: 400;
+}
+.service_title_big span {
+  font-weight: 600;
+}

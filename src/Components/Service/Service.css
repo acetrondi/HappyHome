@@ -1,0 +1,48 @@
+.service-card {
+  min-height: 530px;
+  max-height: 530px;
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid #07a5e2 !important;
+}
+.service-card img {
+  min-height: 250px !important;
+  max-height: 250px !important;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 8px;
+}
+.service-card .card-title {
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+}
+.service-card p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #2a3235;
+}
+.service-card .price {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #07a5e2;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.price span {
+  font-weight: 600;
+}
+.price i {
+  margin-right: 5px;
+}
+
+.service-card a {
+  text-decoration: none;
+  color: #07a5e2;
+}
+.card-title-service {
+  color: #07a5e2;
+  cursor: pointer;
+}

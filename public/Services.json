@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "MEDICAL SUPPORT",
+    "details": "There are doctor visits and nursing professionals on hand.",
+    "img": "/assets/doctor1491.JPG"
+  },
+  {
+    "id": 1,
+    "name": "DEDICATED TEAM",
+    "details": "There will be a dedicated team of people to look after you.",
+    "img": "/assets/docto6.JPG"
+  },
+  {
+    "id": 2,
+    "name": "BEST SERVICE",
+    "details": "We build a place where only joy reigns supreme.",
+    "img": "/assets/Docto8.JPG"
+  },
+  {
+    "id": 3,
+    "name": "JOYFUL ACTIVITIES",
+    "details": "Happy people have proven to maintain better physical health.",
+    "img": "/assets/doctor2667.JPG"
+ }
+]

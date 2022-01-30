@@ -1,0 +1,125 @@
+.about,
+.services,
+.dentists {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: #07a5e2;
+}
+.about h4,
+.services h4,
+.dentists h4 {
+  color: #07a5e2;
+  width: max-content;
+  margin: 5px auto;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 1px solid #07a5e2;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+  border-radius: 25px;
+}
+
+.about h1,
+.services h1,
+.dentists h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  line-height: 1.4;
+  margin: 10px auto;
+  color: #07a5e2;
+  font-weight: 400;
+}
+
+.about h1 span,
+.services h1 span,
+.dentists h1 span {
+  font-weight: 600;
+}
+
+/* ------------------------------ ABOUT BANANER ----------------------------- */
+.about-banner img {
+  border-radius: 10px;
+}
+
+.about-content {
+  color: #444444;
+  padding: 0 2rem;
+}
+
+.about-content h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+.about-content p {
+  color: #888888;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+}
+.about-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #888888;
+  letter-spacing: 0.5px;
+}
+.about-item i {
+  display: inline-block;
+  color: #07a5e2;
+  margin: 0 10px 10px 0;
+}
+
+.about-message {
+  margin-top: 4rem;
+  padding: 4rem 6rem;
+  background-image: url(../../images/Banner/banner-bg-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-message h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+.about-message h1 span {
+  font-weight: 500;
+}
+
+/* ---------------------------- SHORT MEDIA QUERY --------------------------- */
+@media (max-width: 668px) {
+  .about,
+  .services,
+  .dentists {
+    padding: 2rem 1rem;
+  }
+
+  .about h1,
+  .dentists h1,
+  .services h1 {
+    font-size: 24px;
+  }
+  .about-banner {
+    width: 100%;
+  }
+  .about-content {
+    padding: 0;
+  }
+
+  .about-content h2 {
+    font-size: 28px;
+  }
+
+  .about-message {
+    margin: 2rem -2rem;
+    padding: 4rem 3rem;
+  }
+  .about-message h1 {
+    font-size: 24px;
+  }
+}

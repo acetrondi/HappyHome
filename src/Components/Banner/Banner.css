@@ -1,0 +1,131 @@
+.banner {
+  margin-bottom: 5%;
+}
+
+.banner-carousel {
+  height: 100%;
+}
+
+.banner-carousel__item {
+  max-height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-carousel__item img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.banner-carousel__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  color: #fff;
+}
+.banner-carousel__content--details {
+  margin-left: 2%;
+  width: 50%;
+}
+.banner-carousel__content--details h3 {
+  font-weight: 200;
+}
+.banner-carousel__content--details h1 {
+  font-size: 28px;
+  font-family: "Jost", sans-serif;
+}
+.banner-carousel__content--details h1 span {
+  padding: 6px 16px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+}
+.banner-carousel__content--details h1 span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.banner-carousel__content--details p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 300;
+  width: 90%;
+  letter-spacing: 1px;
+}
+
+.banner-carousel__item--1 {
+  background-image: url(../../../src/images/Banner/banner-bg-1.png);
+}
+
+.banner-carousel__item--2 {
+  background-image: url(../../../src/images/Banner/banner-bg-2.png);
+}
+.banner-carousel__item--3 {
+  background-image: url(../../../src/images/Banner/banner-bg-3.png);
+}
+
+.btn-book,
+.btn-learn {
+  border: none;
+  padding: 8px 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 2px solid transparent;
+}
+
+.btn-book {
+  background-color: #fff;
+  color: #0facdf;
+}
+.btn-learn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.btn-learn:hover {
+  background-color: #fff;
+  color: #0facdf;
+  border: 2px solid #fff;
+}
+.btn-learn:active {
+  transform: scale(0.98);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* ---------------------------- SHORT MEDIA QUERY --------------------------- */
+@media (max-width: 668px) {
+  .banner-carousel__item {
+    min-height: 90vh;
+  }
+
+  .banner-carousel__item {
+    max-height: 90vh;
+    background-position: right center;
+  }
+  .banner-carousel__item--3 {
+    background-image: url(../../../src/images/Banner/banner-bg-1.png);
+  }
+  .banner-carousel__item img {
+    display: none !important;
+  }
+
+  .banner-carousel__content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .banner-carousel__content--details {
+    margin-left: 0;
+    width: 100%;
+  }
+  .banner-carousel__content--details h3 {
+    margin-bottom: 1rem;
+  }
+  .banner-carousel__content--details p {
+    width: 100%;
+  }
+}
