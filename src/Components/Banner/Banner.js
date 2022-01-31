@@ -1,7 +1,6 @@
 import React from "react";
 import "./Banner.css";
 import { Carousel } from "react-bootstrap";
-import banner2 from "../../../src/images/Banner/banner-3.png";
 import banner1 from "../../../src/images/Banner/banner-2.png";
 
 const Banner = () => {
@@ -13,16 +12,14 @@ const Banner = () => {
         /* -------------------------------------------------------------------------- */}
         <Carousel.Item className="banner-carousel__item banner-carousel__item--1">
           <div className="banner-carousel__content">
-            <img className="d-block" src={banner2} alt="First slide" />
+            <img className="d-block" src={banner1} alt="First slide" />
             <div className="banner-carousel__content--details ">
               <h3>Welcome to the Happy Home</h3>
               <h1>
-                <span> Expectional Service.</span> 
+                <span> Expcetional Service.</span> 
               </h1>
               <p>
-                Our vision is to promote the concept of
-active ageing in India and to create an
-age-integrated society.
+                Our mission is to provide excellent post-hospitalization and senior citizen care in a cheerful environment, which is why we name it a Happy Home.
               </p>
     
             </div>

@@ -22,7 +22,7 @@ const Statistics = () => {
         <li className="statistics-item">
           <i class="fas fa-user-injured"></i>
           <h4>
-            <Count end="150"></Count>
+            <Count end="15"></Count>
           </h4>
           <p>Old Aged People</p>
         </li>
@@ -36,14 +36,14 @@ const Statistics = () => {
         <li className="statistics-item">
           <i class="fas fa-calendar-week"></i>
           <h4>
-            <Count end="7"></Count>
+            <Count end="1"></Count>
           </h4>
           <p>Years of Experience</p>
         </li>
         <li className="statistics-item">
           <i class="far fa-smile-beam"></i>
           <h4>
-            <Count end="4000"></Count>
+            <Count end="35"></Count>
           </h4>
           <p>Happy Soul</p>
         </li>

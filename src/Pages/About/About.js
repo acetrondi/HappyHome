@@ -11,7 +11,8 @@ import Count from "../../Components/Count/Count";
 
 const About = () => {
   const history = useHistory();
-  const goToServices = () => {
+  
+  const goToAppointmentForm = () => {
     history.push("/services");
   };
 
@@ -19,13 +20,7 @@ const About = () => {
     <section className="about" data-aos="fade-in">
       <h4>About Happy Home</h4>
       <h1 className="text-center mt-3">
-        Enriching {" "}
-        <span>
-          Happiness,
-          <br />
-          care
-        </span>{" "}
-        in heart
+        Why did we begin
       </h1>
 
       <Row xs={1} lg={2} className="g-4 container mt-4 mx-lg-5">
@@ -48,10 +43,12 @@ const About = () => {
         <Col className="about-content">
           <h2>Welcome to Happy Home</h2>
           <p>
-          The mission of an Happy Home is  to provide elders 
-          seeking quiet and serenity with home comforts and peace of mind.
-          The elderly are prone to nostalgia.
-          They rarely find someone with whom to share their experiences and memories. 
+         After addressing the absence of post-hospitalization care at home after being discharged from the hospital, a group of four doctors devised a new concept of a happy house that focuses on post-hospitalization care, called the Senior Citizens Care Home.
+
+
+If you agree to this, many elders in a metropolitan area such as Mumbai are alone at home and do not receive sufficient care due to the hectic and working schedules of their family members.
+
+If that's the case, then Happy Home is the place for you.
           </p>
           <ul className="about-list">
             <li className="about-item">
@@ -79,64 +76,42 @@ const About = () => {
           Welcome{" "}
           <span>
             to your
-            <br /> Home!{" "}
+            <br />Happy Home!{" "}
           </span>{" "}
-          Make An Appointment
         </h1>
-        <button onClick={goToServices} className="btn-learn">
-          See Activities at Happy Home
+        <button onClick={goToAppointmentForm} className="btn-learn">
+          Make An Appointment
         </button>
       </div>
 
       <div className="about__statistics" data-aos="fade-in">
-        <h4>Why us!</h4>
         <h1 className="text-center mt-3">
-          Features That You Will{" "}
-          <span>
-            Love Us and
-            <br />
-            Enjoy Specialized
-          </span>{" "}
-          Care
+          Features of Happy Home
         </h1>
 
-        <ul className="about__statistics-list">
-          <li className="about__statistics-item">
-            <i class="fas fa-medal"></i>
-            <h4>
-              <Count end="100"></Count>
-            </h4>
-            <p>Medical Necessity</p>
-          </li>
-          <li className="about__statistics-item">
-            <i class="far fa-smile"></i>
-            <h4>
-              <Count end="100"></Count>
-            </h4>
-            <p>Diet</p>
-          </li>
-          <li className="about__statistics-item">
-            <i class="fas fa-wrench"></i>
-            <h4>
-              <Count end="100"></Count>
-            </h4>
-            <p>Yoga</p>
-          </li>
-          <li className="about__statistics-item">
-            <i class="fas fa-pen-nib"></i>
-            <h4>
-              <Count end="100"></Count>
-            </h4>
-            <p>Care</p>
-          </li>
-          <li className="about__statistics-item">
-            <i class="fas fa-money-bill-wave"></i>
-            <h4>
-              <Count end="10"></Count>
-            </h4>
-            <p>Staff</p>
-          </li>
-        </ul>
+        <ul className="about-list">
+            <li className="about-item">
+              {" "}
+              <i class="fas fa-chevron-circle-down"></i> Elderly care is available 24 hours a day, seven days a week, plus cctv surveillance to guarantee that everyone is safe.
+            </li>
+            <li className="about-item">
+              {" "}
+              <i class="fas fa-chevron-circle-down"></i> Visiting the doctor on a regular basis to ensure the health of the elderly.
+            </li>
+            <li className="about-item">
+              {" "}
+              <i class="fas fa-chevron-circle-down"></i> In the event that the elderly require assistance, there will be a specialised crew available to help them.
+            </li>
+            <li className="about-item">
+              {" "}
+              <i class="fas fa-chevron-circle-down"></i> hygienic and homemade food for the elderly, as desired.
+
+            </li>
+            <li className="about-item">
+              {" "}
+              <i class="fas fa-chevron-circle-down"></i> Elderly people can actively engage in enjoyable activities to keep them happy, healthy, and motivated.
+            </li>
+          </ul>
       </div>
     </section>
   );

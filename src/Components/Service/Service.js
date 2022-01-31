@@ -13,7 +13,7 @@ const Service = ({ service }) => {
           {name}
         </Card.Title>
         <Card.Text className="mt-auto">
-          <p> {details?.slice(0, 150)}..</p>
+          <p> {details}</p>
         </Card.Text>
       </Card.Body>
     </Card>
