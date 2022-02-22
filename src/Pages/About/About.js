@@ -43,12 +43,7 @@ const About = () => {
         <Col className="about-content">
           <h2>Welcome to Happy Home</h2>
           <p>
-         After addressing the absence of post-hospitalization care at home after being discharged from the hospital, a group of four doctors devised a new concept of a happy house that focuses on post-hospitalization care, called the Senior Citizens Care Home.
-
-
-If you agree to this, many elders in a metropolitan area such as Mumbai are alone at home and do not receive sufficient care due to the hectic and working schedules of their family members.
-
-If that's the case, then Happy Home is the place for you.
+         After experiencing the need of proper post-hospitalization care at home, a group of three doctors discovered the concept of Happy Home.  A place where elderly people and post hospitalized patient can experience homely treatment with 24/7 medical supervision.
           </p>
           <ul className="about-list">
             <li className="about-item">
@@ -92,24 +87,24 @@ If that's the case, then Happy Home is the place for you.
         <ul className="about-list">
             <li className="about-item">
               {" "}
-              <i class="fas fa-chevron-circle-down"></i> Elderly care is available 24 hours a day, seven days a week, plus cctv surveillance to guarantee that everyone is safe.
+              <i class="fas fa-chevron-circle-down"></i> Elderly care is available 24/7, plus CCTV surveillance to guarantee that everyone is safe.
             </li>
             <li className="about-item">
               {" "}
-              <i class="fas fa-chevron-circle-down"></i> Visiting the doctor on a regular basis to ensure the health of the elderly.
+              <i class="fas fa-chevron-circle-down"></i> Regular doctor visit to ensure the health of the elderly.
             </li>
             <li className="about-item">
               {" "}
-              <i class="fas fa-chevron-circle-down"></i> In the event that the elderly require assistance, there will be a specialised crew available to help them.
+              <i class="fas fa-chevron-circle-down"></i> If the elderly requires any assistance, a specialised staff member is already on hand to help them.
             </li>
             <li className="about-item">
               {" "}
-              <i class="fas fa-chevron-circle-down"></i> hygienic and homemade food for the elderly, as desired.
+              <i class="fas fa-chevron-circle-down"></i> Hygienic and homemade food for the elderly, as advised by doctors.
 
             </li>
             <li className="about-item">
               {" "}
-              <i class="fas fa-chevron-circle-down"></i> Elderly people can actively engage in enjoyable activities to keep them happy, healthy, and motivated.
+              <i class="fas fa-chevron-circle-down"></i> Group activities such as board games, music, and so on to ensure the mental health of the elderly.
             </li>
           </ul>
       </div>

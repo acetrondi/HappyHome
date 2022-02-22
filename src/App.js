@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
+import Admin from "./Pages/Admin/Admin";
 import { GridLoader } from "react-spinners";
 import { css } from "@emotion/react";
 
@@ -18,7 +19,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 1000);
   }, []);
 
   return (
@@ -48,6 +49,9 @@ function App() {
               </Route>
               <Route path="/services">
                 <Services></Services>
+              </Route>
+              <Route path="/saviorlifecareadmin">
+                <Admin />
               </Route>
             </Switch>
             <Footer></Footer>

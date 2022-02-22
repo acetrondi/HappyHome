@@ -103,10 +103,10 @@
 
   .banner-carousel__item {
     max-height: 90vh;
-    background-position: right center;
+    background-position: center;
   }
   .banner-carousel__item--3 {
-    background-image: url(../../../src/images/Banner/banner-bg-1.png);
+    background-image: url(../../../src/images/Banner/1.png);
   }
   .banner-carousel__item img {
     display: none !important;

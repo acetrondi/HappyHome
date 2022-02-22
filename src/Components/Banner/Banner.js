@@ -16,10 +16,10 @@ const Banner = () => {
             <div className="banner-carousel__content--details ">
               <h3>Welcome to the Happy Home</h3>
               <h1>
-                <span> Expcetional Service.</span> 
+                <span> Mission</span> 
               </h1>
               <p>
-                Our mission is to provide excellent post-hospitalization and senior citizen care in a cheerful environment, which is why we name it a Happy Home.
+                Many elders in a metropolitan area such as Mumbai are alone at home and do not receive proper care due to the hectic and working schedules of their family members. Happy home is making every effort to eliminate emerging problems such as social isolation and poor quality of care.
               </p>
     
             </div>
@@ -34,12 +34,10 @@ const Banner = () => {
             <div className="banner-carousel__content--details ">
               <h3>Welcome to the Happy Home</h3>
               <h1>
-                <span> DEDICATED TEAM.</span> 
+                <span> Vision</span> 
               </h1>
               <p>
-                Our vision is to promote the concept of
-active ageing in India and to create an
-age-integrated society.
+                Our vision is to provide the highest quality care to our clients while adapting a flexible approach to their needs.
               </p>
     
             </div>
@@ -57,9 +55,7 @@ age-integrated society.
                 <span> JOYFUL ACTIVITIES.</span> 
               </h1>
               <p>
-                Our vision is to promote the concept of
-active ageing in India and to create an
-age-integrated society.
+                Happy Home is not a place, it’s a feeling!
               </p>
     
             </div>

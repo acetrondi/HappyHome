@@ -1,0 +1,10 @@
+{
+    "credentials":[
+        {
+            "username":"kai", 
+            "password":"helloWorld", 
+            "email":"lol1234@mail.com", 
+            "roles":"admin"
+        }
+    ]
+}

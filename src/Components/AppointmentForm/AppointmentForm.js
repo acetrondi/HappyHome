@@ -5,7 +5,7 @@ import { Form, Button } from "react-bootstrap";
 const AppointmentForm = () => {
   
   return (
-    <div className="AppointmentForm">
+    <div className="AppointmentForm ">
       <h4>APPOINTMENT FORM</h4>
       <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">

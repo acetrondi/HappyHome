@@ -22,27 +22,7 @@
   font-size: 14px;
   color: #2a3235;
 }
-.service-card .price {
-  margin-top: 1rem;
-  display: block;
-  font-weight: 400;
-  font-size: 16px;
-  color: #07a5e2;
-  margin: 10px 0 0;
-  padding: 0;
-}
-.price span {
-  font-weight: 600;
-}
-.price i {
-  margin-right: 5px;
-}
 
-.service-card a {
-  text-decoration: none;
-  color: #07a5e2;
-}
 .card-title-service {
   color: #07a5e2;
-  cursor: pointer;
 }
