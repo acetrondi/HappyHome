@@ -9,6 +9,7 @@ import Services from "./Pages/Services/Services";
 import { GridLoader } from "react-spinners";
 import { css } from "@emotion/react";
 
+
 const override = css``;
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 0);
   }, []);
 
   return (

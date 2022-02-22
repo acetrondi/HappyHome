@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
 const Footer = () => {
@@ -19,6 +26,25 @@ const Footer = () => {
         </li>
       </ul>
 
+
+      <div class="social-container">
+     
+      <a href="https://www.facebook.com/saviorlifecare"
+         target="_blank"
+        className="facebook social">
+        <FontAwesomeIcon icon={faFacebook} size="2x" />
+      </a>
+      {/* <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+        <FontAwesomeIcon icon={faTwitter} size="2x" />
+      </a> */}
+      <a href="https://www.instagram.com/saviorlifecare"
+         target="_blank"
+        className="instagram social">
+        <FontAwesomeIcon icon={faInstagram} size="2x" />
+      </a>
+
+
+</div>
       <p className="footer-copyright">
         <small>&copy;2022 All Rights Reserved by Happy Home.</small>
       </p>
