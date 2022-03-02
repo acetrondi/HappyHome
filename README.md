@@ -1,4 +1,4 @@
  # Happy Home <h1>
 
-- This is a website about **Oldage Home**.
+- This website is for **Oldage Home**.
 - Visit & Enjoy 😉
