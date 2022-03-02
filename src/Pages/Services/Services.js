@@ -1,6 +1,5 @@
 import React from "react";
 import "./Services.css";
-import AppointmentForm from "../../Components/AppointmentForm/AppointmentForm";
 import { Col, Row, Spinner } from "react-bootstrap";
 import Service from "../../Components/Service/Service";
 import useServices from "../../Hooks/useServices";
@@ -32,7 +31,6 @@ const Services = () => {
         )}
       </Row>
     </div>
-    <div id="aForm"><AppointmentForm /></div>
     
     </div>
   );

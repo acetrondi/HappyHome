@@ -7,7 +7,6 @@ import img4 from "../../images/About/about-4.JPG";
 
 import { Carousel, Col, Row } from "react-bootstrap";
 import { useHistory } from "react-router";
-import Count from "../../Components/Count/Count";
 
 const About = () => {
   const history = useHistory();

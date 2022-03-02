@@ -1,8 +1,0 @@
-.AppointmentForm{
-    padding: 2rem 16rem;
-}
-
-@media (max-width: 668px) {
-  .AppointmentForm {
-    padding: 2rem 1rem;
-  }}

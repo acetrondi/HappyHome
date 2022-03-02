@@ -50,13 +50,6 @@ const Banner = () => {
           <div className="banner-carousel__content">
             <img className="d-block" src={banner1} alt="Third slide" />
             <div className="banner-carousel__content--details ">
-              <h3>Welcome to the Happy Home</h3>
-              <h1>
-                <span> JOYFUL ACTIVITIES.</span> 
-              </h1>
-              <p>
-                Happy Home is not a place, it’s a feeling!
-              </p>
     
             </div>
           </div>

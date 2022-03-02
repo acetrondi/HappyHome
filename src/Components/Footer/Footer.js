@@ -2,7 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faInstagram
+  faInstagram,
+  faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
@@ -10,12 +11,7 @@ const Footer = () => {
   return (
     <footer>
       <ul className="footer-list">
-        <li className="footer-item">
-          <h3>Social</h3>
-          <a href="/">Facebook</a>
-          <a href="/">Twitter</a>
-          <a href="/">Instagram</a>
-        </li>
+       
         <li className="footer-item">
           <h3>Contact</h3>
           <a href="/">Bungalow No 67, Near Plot No 713, Opp. Dnyanvardhini School, Sector 7, Charkop, Kandivali West, Mumbai 67</a>
@@ -25,21 +21,10 @@ const Footer = () => {
       </ul>
 
 
-      <div class="social-container">
-     
-      <a href="https://www.facebook.com/saviorlifecare"
-        className="facebook social">
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      {/* <a href="https://www.twitter.com/jamesqquick" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
-      </a> */}
-      <a href="https://www.instagram.com/saviorlifecare"
-        className="instagram social">
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
-
-
+<div className="icon-bar">
+  <a href="https://www.facebook.com/saviorlifecare" className="facebook"><FontAwesomeIcon icon={faFacebook} size="1x" /></a> 
+  <a href="https://www.instagram.com/saviorlifecare" className="instagram"><FontAwesomeIcon icon={faInstagram} size="1x" /></a> 
+  <a href="https://wa.me/918976068944" className="whatsapp"><FontAwesomeIcon icon={faWhatsapp} size="1x" /></a>
 </div>
       <p className="footer-copyright">
         <small>&copy;2022 All Rights Reserved by Happy Home.</small>
